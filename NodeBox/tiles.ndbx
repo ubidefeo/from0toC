@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ndbx formatVersion="18" type="file" uuid="387416dd-dcc6-436b-b79c-7a0e4152e09c">
+    <property name="canvasHeight" value="1000"/>
+    <property name="canvasWidth" value="1000"/>
+    <property name="canvasX" value="0"/>
+    <property name="canvasY" value="0"/>
+    <link href="python:ascii.py" rel="functions"/>
+    <node name="root" prototype="core.network" renderedChild="combine1">
+        <node name="add1" position="18.00,20.00" prototype="math.add">
+            <port name="value2" type="float" value="1.0"/>
+        </node>
+        <node name="adjustedMagnetHeight" position="-11.00,-6.00" prototype="math.subtract"/>
+        <node name="adjustedMagnetWidth" position="-17.00,-6.00" prototype="math.subtract"/>
+        <node name="align1" position="-16.00,14.00" prototype="corevector.align"/>
+        <node name="align2" position="-28.00,12.00" prototype="corevector.align">
+            <port name="valign" type="string" value="bottom"/>
+        </node>
+        <node name="align3" position="-16.00,19.00" prototype="corevector.align">
+            <port name="valign" type="string" value="none"/>
+        </node>
+        <node name="align4" position="0.00,18.00" prototype="corevector.align">
+            <port name="halign" type="string" value="left"/>
+            <port name="valign" type="string" value="none"/>
+        </node>
+        <node name="align5" position="-24.00,21.00" prototype="corevector.align">
+            <port name="halign" type="string" value="right"/>
+            <port name="valign" type="string" value="none"/>
+        </node>
+        <node name="align6" position="-33.00,21.00" prototype="corevector.align">
+            <port name="halign" type="string" value="left"/>
+            <port name="valign" type="string" value="bottom"/>
+        </node>
+        <node name="arc1" position="10.00,12.00" prototype="corevector.arc">
+            <port name="degrees" type="float" value="90.0"/>
+            <port name="type" type="string" value="open"/>
+        </node>
+        <node name="colorize1" position="-1.00,30.00" prototype="corevector.colorize">
+            <port name="fill" type="color" value="#00000000"/>
+            <port name="stroke" type="color" value="#ff00006d"/>
+            <port name="strokeWidth" type="float" value="0.5"/>
+        </node>
+        <node name="colorize2" position="10.00,16.00" prototype="corevector.colorize">
+            <port name="fill" type="color" value="#00000000"/>
+            <port name="stroke" type="color" value="#d100006d"/>
+            <port name="strokeWidth" type="float" value="0.5"/>
+        </node>
+        <node name="colorize3" position="17.00,27.00" prototype="corevector.colorize">
+            <port name="fill" type="color" value="#00000000"/>
+            <port name="stroke" type="color" value="#ff00006d"/>
+            <port name="strokeWidth" type="float" value="0.5"/>
+        </node>
+        <node name="colorize4" position="-16.00,21.00" prototype="corevector.colorize">
+            <port name="fill" type="color" value="#0055e6ff"/>
+        </node>
+        <node name="colorize5" position="-28.00,28.00" prototype="corevector.colorize">
+            <port name="fill" type="color" value="#448496ff"/>
+        </node>
+        <node name="columns" position="-1.00,-11.00" prototype="math.integer">
+            <port name="value" type="int" value="16"/>
+        </node>
+        <node name="combine1" position="-7.00,38.00" prototype="list.combine"/>
+        <node name="combine2" position="-29.00,25.00" prototype="list.combine"/>
+        <node name="coordinates1" position="-18.00,6.00" prototype="math.coordinates">
+            <port name="angle" type="float" value="90.0"/>
+            <port name="distance" type="float" value="8.0"/>
+        </node>
+        <node name="coordinates2" position="9.00,9.00" prototype="math.coordinates"/>
+        <node name="coordinates3" position="9.00,10.00" prototype="math.coordinates">
+            <port name="angle" type="float" value="90.0"/>
+        </node>
+        <node name="coordinates4" position="-23.00,9.00" prototype="math.coordinates">
+            <port name="angle" type="float" value="90.0"/>
+            <port name="distance" type="float" value="20.0"/>
+        </node>
+        <node name="coordinates5" position="4.00,18.00" prototype="math.coordinates"/>
+        <node name="coordinates6" position="-33.00,16.00" prototype="math.coordinates"/>
+        <node name="coordinates7" position="1.00,14.00" prototype="math.coordinates">
+            <port name="distance" type="float" value="0.0"/>
+        </node>
+        <node name="coordinates8" position="-24.00,16.00" prototype="math.coordinates"/>
+        <node name="copy1" position="10.00,14.00" prototype="corevector.copy">
+            <port name="copies" type="int" value="4"/>
+            <port name="rotate" type="float" value="90.0"/>
+        </node>
+        <node name="copy2" position="17.00,23.00" prototype="corevector.copy">
+            <port name="translate" type="point" value="0.00,50.00"/>
+        </node>
+        <node name="copy3" position="18.00,25.00" prototype="corevector.copy">
+            <port name="copies" type="int" value="2"/>
+            <port name="rotate" type="float" value="90.0"/>
+        </node>
+        <node name="copy4" position="0.00,20.00" prototype="corevector.copy">
+            <port name="copies" type="int" value="2"/>
+            <port name="translate" type="point" value="47.00,0.00"/>
+        </node>
+        <node name="cutOffset" position="4.00,16.00" prototype="math.subtract"/>
+        <node name="divide2" position="16.00,6.00" prototype="math.divide">
+            <port name="value2" type="float" value="2.0"/>
+        </node>
+        <node name="grid3" position="-5.00,3.00" prototype="corevector.grid">
+            <port name="columns" type="int" value="8"/>
+            <port name="rows" type="int" value="8"/>
+            <port name="width" type="float" value="400.0"/>
+            <port name="height" type="float" value="400.0"/>
+        </node>
+        <node name="gridHeight" position="3.00,-3.00" prototype="math.multiply"/>
+        <node name="gridWidth" position="0.00,-3.00" prototype="math.multiply"/>
+        <node name="gutter" position="5.00,-11.00" prototype="math.integer"/>
+        <node name="halfTileNegative" position="5.00,11.00" prototype="math.negate"/>
+        <node name="halfTileSide" position="13.00,-4.00" prototype="math.divide">
+            <port name="value2" type="float" value="2.0"/>
+        </node>
+        <node function="ascii/intToChar" handle="intToChar" name="intToChar" outputType="string" position="-4.00,14.00">
+            <port description="" label="" name="index" range="value" type="int" value="77" widget="int"/>
+        </node>
+        <node function="ascii/intToHex" handle="intToChar" name="intToHex" outputType="string" position="-7.00,14.00">
+            <port description="" label="" name="index" range="value" type="int" value="77" widget="int"/>
+        </node>
+        <node name="integer1" position="-4.00,12.00" prototype="math.integer"/>
+        <node name="laserWidth" position="-11.00,-11.00" prototype="math.number">
+            <port name="value" type="float" value="0.02"/>
+        </node>
+        <node name="line1" position="-16.00,12.00" prototype="corevector.line">
+            <port name="point1" type="point" value="-20.00,0.00"/>
+            <port name="point2" type="point" value="20.00,0.00"/>
+        </node>
+        <node name="line2" position="17.00,18.00" prototype="corevector.line">
+            <port name="point2" type="point" value="93.23,-276.98"/>
+        </node>
+        <node name="line4" position="-28.00,10.00" prototype="corevector.line">
+            <port name="point1" type="point" value="-20.00,0.00"/>
+            <port name="point2" type="point" value="20.00,0.00"/>
+        </node>
+        <node name="magnetCut" position="0.00,16.00" prototype="corevector.rect">
+            <port name="width" type="float" value="3.0"/>
+            <port name="height" type="float" value="2.96"/>
+        </node>
+        <node name="magnetHeight" position="-14.00,-11.00" prototype="math.number">
+            <port name="value" type="float" value="3.0"/>
+        </node>
+        <node name="magnetWidth" position="-17.00,-11.00" prototype="math.number">
+            <port name="value" type="float" value="3.0"/>
+        </node>
+        <node name="mainFontSize" position="-12.00,13.00" prototype="math.multiply">
+            <port name="value2" type="float" value="0.5"/>
+        </node>
+        <node name="make_point1" position="17.00,16.00" prototype="corevector.make_point"/>
+        <node name="make_point2" position="20.00,16.00" prototype="corevector.make_point"/>
+        <node name="make_point3" position="18.00,21.00" prototype="corevector.make_point"/>
+        <node name="multiply1" position="-11.00,-8.00" prototype="math.multiply">
+            <port name="value2" type="float" value="2.0"/>
+        </node>
+        <node name="multiply2" position="20.00,4.00" prototype="math.multiply">
+            <port name="value2" type="float" value="0.2"/>
+        </node>
+        <node name="multiply3" position="17.00,0.00" prototype="math.multiply">
+            <port name="value2" type="float" value="2.0"/>
+        </node>
+        <node name="multiply4" position="16.00,4.00" prototype="math.multiply">
+            <port name="value2" type="float" value="2.0"/>
+        </node>
+        <node name="negate1" position="16.00,8.00" prototype="math.negate"/>
+        <node name="negate2" position="20.00,8.00" prototype="math.negate"/>
+        <node name="outlineTile" position="-1.00,29.00" prototype="list.combine"/>
+        <node name="range1" position="-4.00,10.00" prototype="math.range">
+            <port name="start" type="float" value="32.0"/>
+            <port name="end" type="float" value="255.0"/>
+        </node>
+        <node name="rows" position="2.00,-11.00" prototype="math.integer">
+            <port name="value" type="int" value="16"/>
+        </node>
+        <node name="secondaryFontSize" position="-20.00,19.00" prototype="math.multiply">
+            <port name="value2" type="float" value="0.33"/>
+        </node>
+        <node name="subtract1" position="0.00,-6.00" prototype="math.subtract">
+            <port name="value2" type="float" value="1.0"/>
+        </node>
+        <node name="subtract2" position="20.00,6.00" prototype="math.subtract"/>
+        <node name="subtract3" position="3.00,-6.00" prototype="math.subtract">
+            <port name="value2" type="float" value="1.0"/>
+        </node>
+        <node name="subtract4" position="17.00,1.00" prototype="math.subtract"/>
+        <node name="text_on_path1" position="-16.00,16.00" prototype="corevector.text_on_path">
+            <port name="font_name" type="string" value="DINPro-Regular"/>
+            <port name="font_size" type="float" value="25.0"/>
+            <port name="alignment" type="string" value="trailing"/>
+        </node>
+        <node name="text_on_path2" position="-33.00,19.00" prototype="corevector.text_on_path">
+            <port name="text" type="string" value="AA"/>
+            <port name="font_name" type="string" value="DINPro-Regular"/>
+            <port name="font_size" type="float" value="8.0"/>
+        </node>
+        <node name="text_on_path3" position="-24.00,19.00" prototype="corevector.text_on_path">
+            <port name="text" type="string" value="AA"/>
+            <port name="font_name" type="string" value="DINPro-Regular"/>
+            <port name="font_size" type="float" value="8.0"/>
+            <port name="alignment" type="string" value="trailing"/>
+        </node>
+        <node name="tile" position="-1.00,8.00" prototype="corevector.rect">
+            <port name="width" type="float" value="50.0"/>
+            <port name="height" type="float" value="50.0"/>
+            <port name="roundness" type="point" value="8.00,8.00"/>
+        </node>
+        <node name="tile1" position="4.00,8.00" prototype="corevector.rect">
+            <port name="width" type="float" value="50.0"/>
+            <port name="height" type="float" value="50.0"/>
+            <port name="roundness" type="point" value="8.00,8.00"/>
+        </node>
+        <node name="tileCornerRadius" position="11.00,-6.00" prototype="math.integer">
+            <port name="value" type="int" value="8"/>
+        </node>
+        <node name="tileSide" position="8.00,-6.00" prototype="math.integer">
+            <port name="value" type="int" value="50"/>
+        </node>
+        <conn input="tile.position" output="grid3"/>
+        <conn input="grid3.columns" output="columns"/>
+        <conn input="grid3.rows" output="rows"/>
+        <conn input="subtract1.value1" output="columns"/>
+        <conn input="subtract3.value1" output="rows"/>
+        <conn input="tile.width" output="tileSide"/>
+        <conn input="tile.height" output="tileSide"/>
+        <conn input="text_on_path1.text" output="intToChar"/>
+        <conn input="coordinates1.position" output="grid3"/>
+        <conn input="align1.shape" output="line1"/>
+        <conn input="align1.position" output="coordinates1"/>
+        <conn input="tile1.width" output="tileSide"/>
+        <conn input="tile1.height" output="tileSide"/>
+        <conn input="coordinates2.position" output="grid3"/>
+        <conn input="coordinates2.distance" output="subtract4"/>
+        <conn input="copy1.shape" output="arc1"/>
+        <conn input="colorize2.shape" output="copy1"/>
+        <conn input="coordinates3.position" output="coordinates2"/>
+        <conn input="arc1.position" output="coordinates3"/>
+        <conn input="coordinates3.distance" output="subtract4"/>
+        <conn input="arc1.width" output="multiply3"/>
+        <conn input="arc1.height" output="multiply3"/>
+        <conn input="outlineTile.list1" output="colorize2"/>
+        <conn input="grid3.height" output="gridHeight"/>
+        <conn input="gridHeight.value2" output="subtract3"/>
+        <conn input="gridHeight.value1" output="tileSide"/>
+        <conn input="gridWidth.value1" output="tileSide"/>
+        <conn input="grid3.width" output="gridWidth"/>
+        <conn input="gridWidth.value2" output="subtract1"/>
+        <conn input="negate1.value" output="divide2"/>
+        <conn input="make_point1.x" output="negate1"/>
+        <conn input="line2.point1" output="make_point1"/>
+        <conn input="make_point1.y" output="negate1"/>
+        <conn input="multiply4.value1" output="columns"/>
+        <conn input="multiply4.value2" output="tileSide"/>
+        <conn input="divide2.value1" output="multiply4"/>
+        <conn input="make_point2.x" output="divide2"/>
+        <conn input="line2.point2" output="make_point2"/>
+        <conn input="make_point2.y" output="negate1"/>
+        <conn input="copy2.shape" output="line2"/>
+        <conn input="add1.value1" output="rows"/>
+        <conn input="copy2.copies" output="add1"/>
+        <conn input="make_point3.y" output="tileSide"/>
+        <conn input="copy2.translate" output="make_point3"/>
+        <conn input="outlineTile.list2" output="colorize3"/>
+        <conn input="copy3.shape" output="copy2"/>
+        <conn input="colorize3.shape" output="copy3"/>
+        <conn input="text_on_path1.path" output="align1"/>
+        <conn input="align2.shape" output="line4"/>
+        <conn input="text_on_path2.path" output="align2"/>
+        <conn input="coordinates4.position" output="grid3"/>
+        <conn input="align2.position" output="coordinates4"/>
+        <conn input="text_on_path3.path" output="align2"/>
+        <conn input="intToChar.index" output="integer1"/>
+        <conn input="integer1.value" output="range1"/>
+        <conn input="text_on_path2.text" output="integer1"/>
+        <conn input="intToHex.index" output="integer1"/>
+        <conn input="text_on_path3.text" output="intToHex"/>
+        <conn input="coordinates7.position" output="grid3"/>
+        <conn input="colorize1.shape" output="outlineTile"/>
+        <conn input="outlineTile.list3" output="copy4"/>
+        <conn input="multiply1.value1" output="laserWidth"/>
+        <conn input="magnetCut.position" output="coordinates7"/>
+        <conn input="copy4.shape" output="align4"/>
+        <conn input="align4.shape" output="magnetCut"/>
+        <conn input="align4.position" output="coordinates7"/>
+        <conn input="cutOffset.value1" output="tileSide"/>
+        <conn input="coordinates5.distance" output="cutOffset"/>
+        <conn input="copy4.translate" output="coordinates5"/>
+        <conn input="adjustedMagnetHeight.value2" output="multiply1"/>
+        <conn input="adjustedMagnetHeight.value1" output="magnetHeight"/>
+        <conn input="magnetCut.height" output="adjustedMagnetHeight"/>
+        <conn input="adjustedMagnetWidth.value1" output="magnetWidth"/>
+        <conn input="adjustedMagnetWidth.value2" output="laserWidth"/>
+        <conn input="magnetCut.width" output="adjustedMagnetWidth"/>
+        <conn input="cutOffset.value2" output="adjustedMagnetWidth"/>
+        <conn input="align3.shape" output="text_on_path1"/>
+        <conn input="align3.position" output="coordinates1"/>
+        <conn input="align5.shape" output="text_on_path3"/>
+        <conn input="align6.shape" output="text_on_path2"/>
+        <conn input="colorize4.shape" output="align3"/>
+        <conn input="combine1.list4" output="colorize4"/>
+        <conn input="halfTileSide.value1" output="tileSide"/>
+        <conn input="subtract4.value1" output="halfTileSide"/>
+        <conn input="coordinates6.position" output="coordinates4"/>
+        <conn input="align6.position" output="coordinates6"/>
+        <conn input="coordinates7.distance" output="halfTileNegative"/>
+        <conn input="halfTileNegative.value" output="halfTileSide"/>
+        <conn input="subtract2.value2" output="multiply2"/>
+        <conn input="negate2.value" output="subtract2"/>
+        <conn input="multiply2.value1" output="halfTileSide"/>
+        <conn input="subtract2.value1" output="halfTileSide"/>
+        <conn input="coordinates6.distance" output="negate2"/>
+        <conn input="coordinates8.position" output="coordinates4"/>
+        <conn input="align5.position" output="coordinates8"/>
+        <conn input="coordinates8.distance" output="subtract2"/>
+        <conn input="tile.roundness" output="tileCornerRadius"/>
+        <conn input="tile1.roundness" output="tileCornerRadius"/>
+        <conn input="multiply3.value1" output="tileCornerRadius"/>
+        <conn input="subtract4.value2" output="tileCornerRadius"/>
+        <conn input="combine1.list1" output="colorize1"/>
+        <conn input="combine1.list6" output="colorize5"/>
+        <conn input="combine2.list1" output="align6"/>
+        <conn input="combine2.list2" output="align5"/>
+        <conn input="colorize5.shape" output="combine2"/>
+        <conn input="mainFontSize.value1" output="tileSide"/>
+        <conn input="text_on_path1.font_size" output="mainFontSize"/>
+        <conn input="secondaryFontSize.value1" output="mainFontSize"/>
+        <conn input="text_on_path2.font_size" output="secondaryFontSize"/>
+        <conn input="text_on_path3.font_size" output="secondaryFontSize"/>
+    </node>
+</ndbx>
