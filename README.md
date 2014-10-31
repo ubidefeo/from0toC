@@ -6,8 +6,10 @@ materials for the "from 0 to C" Computer Science / Code camp
 
 initial commit:
 
-- NodeBox document to create ASCII Table tiles 
-- 
+* added README.md
+* NodeBox document to create ASCII Table tiles 
+
+
 
 
 requirements:
