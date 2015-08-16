@@ -12,6 +12,7 @@ good to get an idea of how I structure this class.
 
 requirements:
 [NodeBox][_link_nodebox]
+
 Illustrator, InkScape, Affinity Designer or other vector graphics app which supports the _.ai_ file format
 
 
@@ -21,4 +22,6 @@ Illustrator, InkScape, Affinity Designer or other vector graphics app which supp
 [Download NodeBox][_link_nodebox]
 
 [_link_nodebox]:http://nodebox.net "NodeBox main site"
-[_link_illustrator]:
+[_link_illustrator]:http://adobe.com/illustrator "Adobe Illustrator"
+[_link_inkscape]:https://inkscape.org/en/ "Inkscape"
+[_link_affinity]:https://affinity.serif.com/en-us/ "Affinity Designer"
