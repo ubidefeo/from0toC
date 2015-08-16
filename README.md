@@ -13,7 +13,7 @@ good to get an idea of how I structure this class.
 requirements:
 [NodeBox][_link_nodebox]
 
-[Illustrator][_link_illustrator, [InkScape][_link_inkscape], [Affinity Designer][_link_affinity] or other vector graphics app which supports the _.ai_ file format
+[Illustrator][_link_illustrator], [InkScape][_link_inkscape], [Affinity Designer][_link_affinity] or other vector graphics app which supports the _.ai_ file format
 
 
 
