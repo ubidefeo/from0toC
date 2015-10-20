@@ -6,6 +6,7 @@ some materials for the "from 0 to C" Computer Science / Code Class
 I'll slowly keep adding more resources in hope that people start picking it up.
 you'll find a draft from the program we wrote for a school in 2012, but it's not up-to-date.
 good to get an idea of how I structure this class.
+I am all alone on this, and most of the year drowning in work, so please get in touch if you want to know more or ask for more material.
 
 
 
