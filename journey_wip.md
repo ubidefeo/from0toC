@@ -48,8 +48,8 @@
 		* roman
 		* arabic (today)
 	* can we use different symbols/means?
-* introducing shapes and colors as replacements for quantities description
-	* make an analogy with currency (color/size)
+* introducing shapes and colours as replacements for quantities description
+	* make an analogy with currency (colour/size)
 
 
 
